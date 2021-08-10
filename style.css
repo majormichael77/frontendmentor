@@ -1,0 +1,82 @@
+div {
+  border: 1px solid red;
+  min-height: 0px;
+}
+.bg-top {
+  background-image: url("images/bg-pattern-top-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 400px;
+}
+
+.bg-bottom {
+  background-image: url("images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto;
+  height: 550px;
+}
+.heading {
+  font-size: 50px;
+  color: hsl(300, 43%, 22%);
+  font-weight: bolder;
+  padding-top: 2.5em;
+  font-family: "Spartan", "sans-serif";
+  font-weight: 800;
+}
+.grey-text {
+  color: #939597;
+  font-family: "Spartan", "sans-serif";
+  font-size: 15px;
+}
+
+.bg-purple {
+  background-color: ghostwhite;
+  border-radius: 8px;
+  font-family: "Spartan", "sans-serif";
+  font-size: 13px;
+  color: indigo;
+  font-weight: 900;
+  padding-top: 1rem;
+  height: 50px;
+}
+.fa-star {
+  color: goldenrod;
+}
+
+.pt-rating {
+  padding-top: 10.5rem;
+}
+.buyer {
+  height: 250px;
+  background-color: #521e4f;
+  color: #ffffff;
+  font-family: "Spartan", "sans-serif";
+  border-radius: 8px;
+}
+.img {
+  height: 50px;
+  border-radius: 50px;
+}
+.buyer-status {
+  padding-left: 3.9rem;
+  color: hsl(333, 80%, 67%);
+  margin-top: 0px;
+  font-size: 12px;
+  padding-top: 0px;
+}
+.buyer-name {
+  padding-top: 0px;
+  font-size: 12px;
+  line-height: 20px;
+  color: hsl(0, 0%, 100%);
+}
+
+.comment {
+  font-size: 14px;
+  font-family: "Spartan", "sans-serif";
+  font-weight: normal;
+  padding-top: 5px;
+  color: hsl(300, 24%, 96%);
+  opacity: 80%;
+}
